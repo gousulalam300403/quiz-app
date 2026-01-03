@@ -17,9 +17,9 @@ Aplikasi web kuis online dengan 3 role pengguna:
 3. Akses `http://localhost/quizmaster-app/`
 
 ## Login Default
-Admin: username: admin password: demo123
-Peserta: username: peserta1 password: demo123
-Pimpinan: username: pimpinan1 password: demo123
+- Admin: username: admin password: demo123
+- Peserta: username: peserta1 password: demo123
+- Pimpinan: username: pimpinan1 password: demo123
 
 
 ## Fitur Utama
