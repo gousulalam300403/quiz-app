@@ -14,7 +14,7 @@ Aplikasi web kuis online dengan 3 role pengguna:
 ## Instalasi Cepat
 1. Import file `database/quiz_db.sql` ke phpMyAdmin
 2. Edit `includes/config.php` sesuaikan koneksi database
-3. Akses `http://localhost/quizmaster-app/`
+3. Akses `http://localhost/quiz-app`
 
 ## Login Default
 - Admin: username: admin password: demo123
