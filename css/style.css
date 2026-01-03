@@ -1,0 +1,108 @@
+/* Additional custom styles */
+
+.badge-admin {
+    background-color: #dc3545;
+    color: white;
+}
+
+.badge-peserta {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-pimpinan {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.avatar-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.quiz-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.question-item {
+    border-left: 4px solid #4361ee;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+}
+
+.timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #dc3545;
+    padding: 10px 20px;
+    background-color: #f8d7da;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    border-radius: 4px;
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #3a0ca3, #4361ee);
+}
+
+.table th {
+    border-top: none;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+}
+
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 56px;
+        left: -250px;
+        height: calc(100vh - 56px);
+        z-index: 1000;
+        transition: left 0.3s;
+    }
+    
+    .sidebar.show {
+        left: 0;
+    }
+    
+    .main-content {
+        width: 100%;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .stat-card {
+        margin-bottom: 15px;
+    }
+}
